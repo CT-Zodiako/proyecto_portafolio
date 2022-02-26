@@ -6,11 +6,14 @@ body{
 
 .menu p{
     font-size: 20px;
+    margin-left: 20px;
+    color: white;
 }
 
 li{
     list-style: none;
     margin-right: 25px;
+    color: white;
 }
 
 .menu{
@@ -31,6 +34,7 @@ li{
 .titular h1{
     font-size: 60px;
     margin: 0;
+    
 }
 
 .titular h2{
@@ -44,9 +48,78 @@ li{
     font-size: 18px;
     background-color: rgba(197, 97, 97, 0.678);    
     padding: 20px 30px 20px 30px;
+    color: white;
 }
 
 header{
-    background: url(fondo.jpg); 
+    background: url(/Proyecto_portafolio/assets/imagenes/fondo.jpg);
+	background-size:cover;
+	height:80vh;
+    background-position: 0 -20px;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+.contenedor_sobre_mi{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor_boton_info{
+    width: 42%;
+}
+.contenedor_sobre_mi a{
+    font-size: 18px;
+    background-color: rgba(197, 97, 97, 0.678);    
+    padding: 20px 30px 20px 30px;
+    color: white;
+    float: right;
+    
+   
+}
+
+.contenedor_sobre_mi img{
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.contenedor_sobre_mi p{
+    text-align: justify;
+}
+
+.servicios_general{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicios{
+    width: 22%;
+    padding: 38px;
+    margin: 50px 50px 50px 50px;
+    border-radius: 10%;
+}
+
+
+.estilo_servicios_izq{
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    
+}
+
+.estilo_servicios_cen{
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.estilo_servicios_der{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.servicios img{
+    float: right;
 }
 

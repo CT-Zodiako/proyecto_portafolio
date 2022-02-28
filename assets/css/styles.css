@@ -2,7 +2,12 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    /* background-image: url(/assets/imagenes/fondo_general.jpg);
+     */
+    
 }
+
+
 
 .menu p{
     font-size: 20px;
@@ -32,15 +37,19 @@ li{
 }
 
 .titular h1{
-    font-size: 60px;
+    font-size: 100px;
     margin: 0;
-    
+    color: white;
+    font-weight: bolder;
 }
+    
+
 
 .titular h2{
     font-size: 25px;
     margin-bottom: 40px;
     margin-top: 15px;
+    color: white;
     
 }
 
@@ -49,12 +58,13 @@ li{
     background-color: rgba(197, 97, 97, 0.678);    
     padding: 20px 30px 20px 30px;
     color: white;
+    text-decoration: none;
 }
 
 header{
-    background: url(/Proyecto_portafolio/assets/imagenes/fondo.jpg);
+    background: url(/assets/imagenes/fondo.jpg);
 	background-size:cover;
-	height:80vh;
+	height:50vh;
     background-position: 0 -20px;
 
 }
@@ -84,8 +94,8 @@ h3{
 }
 
 .contenedor_sobre_mi img{
-    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
 }
 
 .contenedor_sobre_mi p{
@@ -107,19 +117,92 @@ h3{
 
 
 .estilo_servicios_izq{
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
     
 }
 
 .estilo_servicios_cen{
-    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
 }
 
 .estilo_servicios_der{
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
 }
 
 .servicios img{
     float: right;
+    
 }
+
+#what a{
+    position: fixed;
+    top: 90%;
+    right: 1%;
+
+}
+
+.trabajar_conmigo h4{
+    text-align: center;
+    color: white;
+}
+
+.conmigo{
+
+  background-color: #fafafa;
+  margin: 0 30% 0 30%;
+  padding: 1rem;
+  border: 2px solid #ccc;  
+  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+  background-image: url(/assets/imagenes/fondo_trabajar.jpg);
+  height: 250px;  
+  
+}
+
+.conmigo p{
+    color: white;
+    text-align: justify;
+    
+}
+.conmigo q{
+    font-style: oblique;
+    color: white;
+    font-weight: 800;
+    float: right;
+}
+
+
+.global_gaming{
+    text-align: center;
+}
+.tarjetas_gaming{
+    font-size: 26px;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    background-color: #fafafa;
+    padding: 1rem;
+    border: 2px solid #ccc;  
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;  
+    height: 550px;        
+
+}
+
+.specifig_game{
+    border-radius: 150px;
+    width: 300px;
+    height: 300px; 
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;    
+    margin-left: 50px ;  
+    background-image: url(/assets/imagenes/Lol.png);    
+    background-size:cover;
+    margin: 80px 120px 120px 120px ;
+
+}
+
+
+.game{
+    display: flex;
+    
+}
+
+    
 

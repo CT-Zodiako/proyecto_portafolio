@@ -26,10 +26,16 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .lista{
     display: flex;
+    text-decoration: none;
+}
+.lista a{
+    
+    text-decoration: none;
 }
 
 .titular{
@@ -70,7 +76,7 @@ header{
 	background-size:cover;	
     background-position: 0 -20px;
     padding: auto;
-    
+    height: 600px;   
     
     
 }
@@ -84,7 +90,9 @@ h3{
 .contenedor_sobre_mi{
     display: flex;
     justify-content: space-around;
+    
 }
+
 
 .contenedor_boton_info{
     width: 42%;
@@ -204,13 +212,27 @@ h3{
     
     width: 95%;
     text-align: center;
-    background-color: #fafafa;
+    
     padding: 1rem;
-    border: 2px solid #ccc;  
-    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue; 
+    
+    
 }
 
 
-
+.icono_contacto {
+   
     
+}
+
+.global_contacto{
+    width: 90%;
+    height: 6rem;
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.global_contacto a i{
+    text-decoration: none;
+}
 

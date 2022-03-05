@@ -231,7 +231,7 @@ h3{
     text-align: center;
 }
 
-.global_contacto a i{
+.global_contacto a {
     text-decoration: none;
 }
 
